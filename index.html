@@ -35,7 +35,7 @@
           </ul>
           <form class="d-flex">
             <input
-            id="searchTxt"
+              id="searchTxt"
               class="form-control me-2"
               type="search"
               placeholder="Search"
@@ -53,9 +53,20 @@
       <h1>Welcome to Magic Notes</h1>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Add Note </h5>
+          <!-- <h5 class="card-title">Add Note </h5> -->
+          <textarea
+            class="form-control my-2"
+            placeholder="Title"
+            id="addTitle"
+            rows="1"
+          ></textarea>
           <div class="form-group">
-            <textarea class="form-control my-2"  placeholder="Note" id="addTxt" rows="3"></textarea>
+            <textarea
+              class="form-control my-2"
+              placeholder="Note"
+              id="addNote"
+              rows="3"
+            ></textarea>
           </div>
           <button class="btn btn-primary" id="addBtn">Add Note</button>
         </div>
