@@ -1,3 +1,4 @@
+
 showNotes();
 
 //If user adds a note, add it to the localStorage
